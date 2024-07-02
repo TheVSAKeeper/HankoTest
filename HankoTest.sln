@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HankoTest.FirstApi", "HankoTest.FirstApi\HankoTest.FirstApi.csproj", "{67915C33-D377-4B5D-9F0C-FB78B8C58DBB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C17D6F61-CEC5-4A4B-8A9F-3DE73036DB88}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HankoTest.SecondApi", "HankoTest.SecondApi\HankoTest.SecondApi.csproj", "{BA41439D-B05B-4F1B-BFFD-A160066C5F29}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67915C33-D377-4B5D-9F0C-FB78B8C58DBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67915C33-D377-4B5D-9F0C-FB78B8C58DBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67915C33-D377-4B5D-9F0C-FB78B8C58DBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67915C33-D377-4B5D-9F0C-FB78B8C58DBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA41439D-B05B-4F1B-BFFD-A160066C5F29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA41439D-B05B-4F1B-BFFD-A160066C5F29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA41439D-B05B-4F1B-BFFD-A160066C5F29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA41439D-B05B-4F1B-BFFD-A160066C5F29}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

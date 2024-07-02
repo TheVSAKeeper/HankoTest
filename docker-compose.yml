@@ -1,0 +1,12 @@
+﻿services:
+  hankotest.firstapi:
+    image: hankotest.firstapi
+    build:
+      context: .
+      dockerfile: HankoTest.FirstApi/Dockerfile
+
+  hankotest.secondapi:
+    image: hankotest.secondapi
+    build:
+      context: .
+      dockerfile: HankoTest.SecondApi/Dockerfile
